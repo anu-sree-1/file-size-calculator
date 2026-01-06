@@ -3,6 +3,7 @@ import SizeInput from './components/SizeInput'
 import UnitSelect from './components/UnitSelect'
 import ResultTable from './components/ResultTable'
 import { convertSize, type Unit } from './utils/convertSize'
+import './styles/global.css'
 
 export default function App() {
   const [value, setValue] = useState<string>('')
@@ -11,7 +12,7 @@ export default function App() {
   const result = convertSize(value, unit)
 
   return (
-    <main>
+    <main className='app'>
       <h1>File Size Calculator</h1>
 
       <SizeInput value={value} onChange={setValue} />
