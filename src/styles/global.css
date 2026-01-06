@@ -1,0 +1,28 @@
+body {
+  font-family: system-ui, sans-serif;
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+input,
+select {
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+table {
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+}
